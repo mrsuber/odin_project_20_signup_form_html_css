@@ -1,2 +1,108 @@
 body{
-	color:red;}
+  display: flex;
+
+}
+.section1{
+  width: 50vw;
+  flex: 1;
+  position: relative;
+}
+
+.section2{
+  width: 50vw;
+  flex:2;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.text{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+    margin-left: 30px;
+    width: 90%;
+    padding-bottom:25px;
+}
+.form{
+  flex: 1;
+  background-color: #fff;
+
+}
+.button{
+  flex: 1;
+  margin: 25px;
+}
+
+.side-image-i{
+  width: 100%;
+  height: 100%;
+}
+
+.side-image{
+  width: 100%;
+  height: 100vh;
+}
+
+.odin-img{
+  height: 115px;
+  width: 100%;
+  background: #00000094;
+  position: absolute;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    top:30%;
+}
+
+.odin-img img{
+  height: 100px;
+  width: 100px;
+}
+
+form{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+width: 80%;
+}
+.form-group{
+display: flex;
+flex-direction: column;
+width: 250px;
+margin: 0 20px;
+}
+
+input{
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+button{
+  background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+label{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.auto{
+  position: absolute;
+
+  top:10;
+}
+.auto p{
+  color: white;
+}
